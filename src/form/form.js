@@ -46,7 +46,6 @@ class Form extends React.Component {
             ></input>
 
             <input type="submit" id="submitForm" value="Go!"></input>
-          </form>
           <section id="restMethods">
             {/* GET */}
             <input
@@ -90,6 +89,7 @@ class Form extends React.Component {
               {this.state.method} {this.state.value}
             </p>
           </section>
+          </form>
         </div>
       </>
     );
